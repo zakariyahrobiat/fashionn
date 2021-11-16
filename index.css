@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:khaki;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.body{
+    display: flex;
+    /* gap: 2px; */
+    
+}
+.img-container img{
+    margin-top: 70px;
+    margin-left: 70px;
+     width: 59.5%; 
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px ;    
+    
+}
+.text-container h1{
+    font-weight: 800;
+    position: absolute;
+    top: 82px;
+    left: 290px;
+    -webkit-text-stroke: 1.5px white;
+    color: transparent;
+    line-height: 1.2;
+    font-size: 25px;
+    
+}
+.text-container h2{
+    position: absolute;
+    top: 232px;
+    left:90px ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+.product-section{
+    background-color: white;
+    width: 19.8%;
+    margin-left: 70px;
+    position: absolute;
+    top: 249px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.product-section h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px; 
+}
+.img-container1{
+    display: flex;
+    gap: 8px;
+    padding-top: 50px;
+    padding-left:15px ;
+}
+.img-container1 .image{
+    width: 37%;
+}
+.img-container1 img{
+    width: 78px;
+    height: 70px;
+}
+.text-container1{
+    display: flex;
+    gap: 2px;
+    font-size: 9px;
+    padding-top: 10px;
+    padding-left:15px ;
+}
+.text-container1 #series{
+    width: 39.5%;
+}
+.text-container2{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.text-container2 p{
+    width: 50%;
+    font-size: 10px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.text-container2 h1{
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px 35px;
+    /* width: 150px; */
+    border-bottom-right-radius: 10px;
+    font-size: 45px;
+}
+.section2{
+    background-color: white;
+    margin-top: 70px ;
+    width: 19.8%;
+    height: 460px;
+    border-radius: 10px;
+
+}
+#image{
+    position: absolute;
+    top: 120px;
+    height: 180px;
+    width: 160px;
+    
+}
+#image1{
+    position: absolute;
+    top: 215px;
+    width: 60px;
+     height: 80px;
+    left: 615px;
+}
+#image2{
+    position: absolute;
+    top: 237px;
+    left: 675px;
+    width: 50px;
+}
+.section2 #fashion{
+    position: absolute;
+    padding-left: 150px;
+    top: 125px;
+    font-weight: 900;
+    line-height: 1.2;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    font-size: 35px;
+}
+.text-container3{
+    display: flex;
+    gap: 10px;
+   
+}
+.text-container3 h3{
+    width: 70%;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 350px;
+}
+.text-container3 #page{
+    position: absolute;
+    top: 355px;
+    left: 550px;
+    transform:rotate(270deg);
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+    background-color: black;
+    height: 110px;
+    width: 240px;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+}
+@media(max-width:900px){
+    .body{
+        display: block;
+    }
+    .img-container img{
+        margin-top: 20px;
+        margin-left: 20px;
+         width: 90%; 
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px ;    
+        
+    }
+    .text-container h1{
+        font-weight: 900;
+        position: absolute;
+        top: 35px;
+        left: 290px;
+        -webkit-text-stroke: 1.5px white;
+        color: transparent;
+        line-height: 1.2;
+        font-size: 33px;
+        
+    }
+    .text-container h2{
+        position: absolute;
+        top: 220px;
+        left:40px ;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 0.9;
+    }
+    .product-section{
+        background-color: white;
+        width: 90%;
+        margin-left: 20px;
+        position: absolute;
+        top: 243px ;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .product-section h2{
+        font-size: 25px;
+        font-weight: 900;
+        padding-left: 15px; 
+    }
+    .img-container1{
+        display: flex;
+        gap: 8px;
+        padding-top: 70px;
+        padding-left:15px ;
+    }
+    .img-container1 .image{
+        width: 37%;
+    }
+    .img-container1 img{
+        width: 78px;
+        height: 70px;
+    }
+    .text-container1{
+        display: flex;
+        gap: 2px;
+        font-size: 11.5px;
+        padding-top: 10px;
+        padding-left:15px ;
+        
+    }
+    .text-container1 #series{
+        width: 39.5%;
+        
+    }
+    .text-container2{
+        display: flex;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+    .text-container2 p{
+        width: 50%;
+        font-size: 12px;
+        padding-top: 20px;
+        font-weight: 700;
+    }
+    .text-container2 h1{
+        width: 50%;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        padding: 10px 35px;
+        /* width: 150px; */
+        border-bottom-right-radius: 10px;
+        font-size: 45px;
+    }
+    .section2{
+        background-color: white;
+        margin-top: 340px ;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 460px;
+        border-radius: 10px;
+    
+    }
+    #image{
+        position: absolute;
+        top: 630px;
+        height: 220px;
+        width: 200px;
+        
+    }
+    #image1{
+        position: absolute;
+        top: 740px;
+        width: 80px;
+         height: 100px;
+        left: 220px;
+    }
+    #image2{
+        position: absolute;
+        top: 768px;
+        left: 300px;
+        width: 60px;
+    }
+    .section2 #fashion{
+        position: absolute;
+        padding-left: 190px;
+        top: 635px;
+        font-weight: 900;
+        line-height: 1.2;
+        -webkit-text-stroke: 2px black;
+        color: transparent;
+        font-size: 40px;
+    }
+    .text-container3{
+        display: flex;
+        gap: 10px;
+       
+    }
+    .text-container3 h3{
+        width: 70%;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-top: 320px;
+    }
+    .text-container3 #page{
+        position: absolute;
+        top: 868px;
+        left: 180px;
+        transform:rotate(270deg);
+        font-weight: 900;
+        font-size: 55px;
+        color: white;
+        background-color: black;
+        height: 140px;
+        width: 219px;
+        padding: 30px;
+        border-bottom-left-radius: 10px;
+    }
+}
