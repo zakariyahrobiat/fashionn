@@ -313,8 +313,8 @@ body{
     }
     .text-container3 #page{
         position: absolute;
-        top: 872px;
-        left: 183px;
+        top: 879px;
+        left: 185px;
         transform:rotate(270deg);
         font-weight: 900;
         font-size: 55px;
