@@ -283,7 +283,7 @@ body{
         position: absolute;
         top: 768px;
         left: 300px;
-        width: 55px;
+        width: 50px;
     }
     .section2 #fashion{
         position: absolute;
@@ -316,7 +316,7 @@ body{
         color: white;
         background-color: black;
         height: 140px;
-        width: 215px;
+        width: 210px;
         padding: 30px;
         border-bottom-left-radius: 10px;
     }
