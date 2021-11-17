@@ -12,7 +12,7 @@ body{
      gap: 50px; 
     
 }
-.section1{
+.body .section1{
     width: 25%;
 }
 .section1 .img-container img{
@@ -23,7 +23,7 @@ body{
      border-top-right-radius: 10px ;    
     
 }
-.text-container h1{
+.section1 .text-container h1{
     font-weight: 800;
     position: absolute;
     top: 82px;
@@ -174,17 +174,17 @@ body{
     .section1 .img-container img{
         margin-top: 20px;
         margin-left: 20px;
-         width: 100%; 
+         width: 360%;
          border-top-left-radius: 15px;
          border-top-right-radius: 15px ;    
         
     }
-    .text-container h1{
+    .section1 .text-container h1{
         font-weight: 900;
         position: absolute;
         top: 35px;
         left: 290px;
-        -webkit-text-stroke: 1.5px white;
+         -webkit-text-stroke: 1.5px white; 
         color: transparent;
         line-height: 1.2;
         font-size: 33px;
@@ -281,13 +281,14 @@ body{
         top: 740px;
         width: 80px;
          height: 100px;
-        left: 215px;
+        left: 220px;
     }
     .section2 #image2{
         position: absolute;
         top: 768px;
-        left: 295px;
-        width: 55px;
+        left: 300px;
+        width: 50px;
+        height:80px ;
     }
     .section2 #fashion{
         position: absolute;
@@ -320,7 +321,7 @@ body{
         color: white;
         background-color: black;
         height: 140px;
-        width: 215px;
+        width: 210px;
         padding: 30px;
         border-bottom-left-radius: 10px;
     }
