@@ -164,10 +164,13 @@ body{
     .body{
         display: block;
     }
+    .section1{
+        width: 90%;
+    }
     .section1 .img-container img{
         margin-top: 20px;
         margin-left: 20px;
-         width: 90%; 
+         width: 100%; 
          border-top-left-radius: 15px;
          border-top-right-radius: 15px ;    
         
@@ -259,6 +262,7 @@ body{
         width: 90%;
         height: 460px;
         border-radius: 10px;
+        width: 90%;
     
     }
     .section2 #image{
