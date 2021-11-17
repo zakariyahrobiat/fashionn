@@ -281,12 +281,12 @@ body{
         top: 740px;
         width: 75px;
          height: 100px;
-        left: 215px;
+        left: 218px;
     }
     .section2 #image2{
         position: absolute;
         top: 768px;
-        left: 300px;
+        left: 290px;
         width: 50px;
         height:80px ;
     }
@@ -320,8 +320,8 @@ body{
         font-size: 55px;
         color: white;
         background-color: black;
-        height: 140px;
-        width: 200px;
+        height: 125px;
+        width: 195px;
         padding: 30px;
         border-bottom-left-radius: 10px;
     }
