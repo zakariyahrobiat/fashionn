@@ -281,12 +281,12 @@ body{
         top: 740px;
         width: 75px;
          height: 100px;
-        left: 218px;
+        left: 220px;
     }
     .section2 #image2{
         position: absolute;
         top: 768px;
-        left: 290px;
+        left: 295px;
         width: 50px;
         height:80px ;
     }
@@ -313,8 +313,8 @@ body{
     }
     .text-container3 #page{
         position: absolute;
-        top: 868px;
-        left: 180px;
+        top: 872px;
+        left: 183px;
         transform:rotate(270deg);
         font-weight: 900;
         font-size: 55px;
