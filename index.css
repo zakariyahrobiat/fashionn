@@ -279,9 +279,9 @@ body{
     .section2 #image1{
         position: absolute;
         top: 740px;
-        width: 80px;
+        width: 75px;
          height: 100px;
-        left: 220px;
+        left: 215px;
     }
     .section2 #image2{
         position: absolute;
@@ -321,7 +321,7 @@ body{
         color: white;
         background-color: black;
         height: 140px;
-        width: 210px;
+        width: 200px;
         padding: 30px;
         border-bottom-left-radius: 10px;
     }
