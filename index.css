@@ -9,16 +9,15 @@ body{
 }
 .body{
     display: flex;
-     gap: 0px; 
+     gap: 50px; 
     
 }
 .body .section1{
     width: 25%;
-    margin-top: 70px;
-    margin-left: 70px;
 }
 .section1 .img-container img{
-   
+    margin-top: 70px;
+    margin-left: 70px;
      width: 79%; 
      border-top-left-radius: 10px;
      border-top-right-radius: 10px ;    
@@ -28,7 +27,7 @@ body{
     font-weight: 800;
     position: absolute;
     top: 82px;
-    padding-left: 220px;
+    left: 290px;
     -webkit-text-stroke: 1.5px white;
     color: transparent;
     line-height: 1.2;
@@ -46,7 +45,7 @@ body{
 .product-section{
     background-color: white;
     width: 19.8%;
-    /* margin-left: 70px; */
+    margin-left: 70px;
     position: absolute;
     top: 249px ;
     border-bottom-left-radius: 10px;
@@ -122,12 +121,12 @@ body{
     top: 215px;
     width: 60px;
      height: 80px;
-    margin-left: 160px;
+    left: 552px;
 }
 #image2{
     position: absolute;
     top: 237px;
-    margin-left: 220px;
+    left: 612px;
     width: 50px;
 }
 .section2 #fashion{
@@ -151,10 +150,10 @@ body{
     padding-left: 15px;
     padding-top: 350px;
 }
-.section2 .text-container3 #page{
+.text-container3 #page{
     position: absolute;
     top: 355px;
-    margin-left: 95px;
+    left: 487px;
     transform:rotate(270deg);
     font-weight: 700;
     font-size: 45px;
@@ -312,7 +311,7 @@ body{
         padding-left: 15px;
         padding-top: 320px;
     }
-    .section2 .text-container3 #page{
+    .text-container3 #page{
         position: absolute;
         top: 879px;
         left: 185px;
